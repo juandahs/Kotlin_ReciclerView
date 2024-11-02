@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ReciclerView</string>
+    <string name="imgPerfil">foto de perfil</string>
+    <string name="sp_ft">firstTime</string>
+    <string name="placeHolder">Ingrese el usuario</string>
+    <string name="helperUser">Obligatorio</string>
+    <string name="dialog_title">Bienvenido.</string>
+    <string name="btnSave">Guardar</string>
+    <string name="sp_userName">nombre de usuario</string>
+</resources>

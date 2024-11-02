@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="p_15">15dp</dimen>
+    <dimen name="card_56">56dp</dimen>
+    <dimen name="img_42">42dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+</resources>

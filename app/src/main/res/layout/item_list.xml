@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_56"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- app:layout_constraintStart_toStartOf="parent"
+        constraintStart pertenece a la etiqueta.
+        toStartOf pertenece al padre (constraintLayout)
+     -->
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="@dimen/img_42"
+        android:layout_height="@dimen/img_42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/imgPerfil"
+        />
+
+    <!-- La libreria de tools no aplica para datos que se puedan trabajar en la logica
+        sirve para previsualizar los elementos  en los layouts
+    -->
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="1"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_15"
+        tools:text="Juan David Castro Marin"
+        app:layout_constraintStart_toEndOf="@id/imgPhoto"
+        app:layout_constraintEnd_toStartOf="@id/tvOrder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
